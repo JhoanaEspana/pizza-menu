@@ -139,11 +139,11 @@ body {
   font-size: 1.6rem;
 }
 
-.pizza.sold-out {
+.sold-out {
   color: #888;
 }
 
-.pizza.sold-out img {
+.sold-out img {
   filter: grayscale();
   opacity: 0.8;
 }

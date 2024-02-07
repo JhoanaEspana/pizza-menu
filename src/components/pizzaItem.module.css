@@ -39,3 +39,19 @@ p {
 .item_content_title {
   margin-bottom: 0.8rem;
 }
+
+.sold_out {
+  display: flex;
+  background-color: #f7f7f7;
+  padding: 1.2rem;
+  margin: 1.6rem;
+  max-width: 270px;
+  border-radius: 0.8rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  color: #888;
+}
+
+.sold_out img {
+  filter: grayscale();
+  opacity: 0.8;
+}
