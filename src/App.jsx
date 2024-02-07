@@ -1,7 +1,14 @@
+import Footer from './components/Footer'
+import Header from './components/Header'
+import PizzaMenu from './components/PizzaMenu'
+import './index.css'
+
 function App() {
   return (
     <>
-      <h1>Holaaa</h1>
+      <Header />
+      <PizzaMenu />
+      <Footer />
     </>
   )
 }
