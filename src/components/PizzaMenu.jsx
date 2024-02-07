@@ -6,7 +6,7 @@ const PizzaMenu = () => {
   const data = pizzaData
 
   return (
-    <div>
+    <>
       <div>
         <h3>Our menu</h3>
       </div>
@@ -21,7 +21,7 @@ const PizzaMenu = () => {
           />
         ))}
       </div>
-    </div>
+    </>
   )
 }
 

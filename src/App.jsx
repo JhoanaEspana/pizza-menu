@@ -5,11 +5,11 @@ import './index.css'
 
 function App() {
   return (
-    <>
+    <div className='container'>
       <Header />
       <PizzaMenu />
       <Footer />
-    </>
+    </div>
   )
 }
 
